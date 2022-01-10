@@ -7,7 +7,7 @@ import scipy, math
 #The matrices are in the form of numpy arrays
 
 # -------------------------------------------      CR DATA      ----------------------------------------------------------#
-
+#  new line 
 f = open('60TeVCR.txt')
 triplets=f.read().split()
 for i in range(0,len(triplets)): triplets[i]=triplets[i].split(',')
